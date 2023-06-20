@@ -11,6 +11,33 @@ export const MENU: MenuItem[] = [
     link: '/dashboard'
   },
   {
+    label: 'Book',
+    isTitle: true
+  },
+  {
+    label: 'Books',
+    icon: 'book',
+    link: 'book/books'
+  },
+  {
+    label: 'Sales',
+    isTitle: true
+  },
+  {
+    label: 'Book Sales',
+    icon: 'layers',
+    link: '/booksales'
+  },
+  {
+    label: 'Royalty',
+    isTitle: true
+  },
+  {
+    label: 'Royalty Payments',
+    icon: 'layers',
+    link: 'royalty/royaltypayments'
+  },
+  {
     label: 'Web Apps',
     isTitle: true
   },
