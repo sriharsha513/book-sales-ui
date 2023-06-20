@@ -6,9 +6,9 @@
 
 // Theme style for demo1 (Vertical-Menu-Light & Vertical-Menu-Light-RTL)
 // Custom variables
-@import './variables';
 // Bootstrap stylesheets
 @import 'bootstrap/scss/bootstrap.scss';
+@import './variables';
 // @import "bootstrap/scss/functions";
 // @import "bootstrap/scss/variables";
 // @import "bootstrap/scss/variables-dark";
@@ -49,7 +49,6 @@
 // @import "bootstrap/scss/helpers";
 // // Bootstrap utilities
 // @import "bootstrap/scss/utilities/api";
-@import './utilities';
 // Custom mixins
 @import './mixins/animation';
 @import './mixins/buttons';
@@ -64,25 +63,26 @@
 @import './typography';
 @import './demo';
 @import './spinner';
+@import './utilities';
 // Layout
 @import './vertical-wrapper';
 @import './navbar';
 @import './sidebar';
 @import './layouts';
 // components
-@import "./components/badges";
-@import "./components/bootstrap-alert";
-@import "./components/breadcrumbs";
-@import "./components/buttons";
-@import "./components/cards";
-@import "./components/datepicker";
-@import "./components/dropdown";
-@import "./components/forms";
-@import "./components/icons";
-@import "./components/nav";
-@import "./components/pagination";
-@import "./components/rating";
-@import "./components/tables";
+// @import "./components/badges";
+// @import "./components/bootstrap-alert";
+// @import "./components/breadcrumbs";
+// @import "./components/buttons";
+// @import "./components/cards";
+// @import "./components/datepicker";
+// @import "./components/dropdown";
+// @import "./components/forms";
+// @import "./components/icons";
+// @import "./components/nav";
+// @import "./components/pagination";
+// @import "./components/rating";
+// @import "./components/tables";
 // Pages
 @import "./components/dashboard";
 @import "./components/timeline";
@@ -95,13 +95,13 @@
 @import "./components/plugin-overrides/ng-select";
 @import "./components/plugin-overrides/ngx-chips";
 @import "./components/plugin-overrides/ngx-quill";
-@import "./components/plugin-overrides/perfect-scrollbar";
-@import "./components/plugin-overrides/simplemde";
-@import "./components/plugin-overrides/sweet-alert";
-@import "./components/plugin-overrides/dropzone";
-@import "./components/plugin-overrides/angular-archwizard";
-@import "./components/plugin-overrides/apex-charts";
-@import "./components/plugin-overrides/data-tables";
-@import "./components/plugin-overrides/ngx-datatable";
+// @import "./components/plugin-overrides/perfect-scrollbar";
+// @import "./components/plugin-overrides/simplemde";
+// @import "./components/plugin-overrides/sweet-alert";
+// @import "./components/plugin-overrides/dropzone";
+// @import "./components/plugin-overrides/angular-archwizard";
+// @import "./components/plugin-overrides/apex-charts";
+// @import "./components/plugin-overrides/data-tables";
+// @import "./components/plugin-overrides/ngx-datatable";
 // Custom scss
 @import "./custom";
