@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { FeatherIconModule } from '../feather-icon/feather-icon.module';
+import { FeatherIconModule } from '../core/feather-icon/feather-icon.module';
 import { RouterModule } from '@angular/router';
 
 
